@@ -364,6 +364,28 @@ a {
     z-index: 2;
 }
 
+nav .navbar-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logo_agence {
+    height: 40px; 
+    position: absolute;
+    left:20px;
+    top:15px; 
+}
+
+#menu_nav a {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
 #title {
     width: 100%;
     max-width: 800px;
@@ -373,9 +395,9 @@ a {
     width: 100%;
 }
 
-footer .col-sm-12 h4 {
+footer .col-sm-12 h3 {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: bold;
     margin-bottom: 30px;
     color: #575757;
@@ -786,7 +808,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #fff;
-    color: #F3976C!important;
+    color: #575757!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -835,6 +857,21 @@ h4 {
 
 
 @media (min-width: 768px) {
+
+    #menu_nav {
+        position: absolute;
+        top:20px;
+        right: 15px;
+    }
+
+    #logo_agence {
+        top:10px;
+    }
+
+    #nav-toggle {
+    display: none;
+    }
+
     .black-background {
         padding: 40px;
     }
@@ -843,8 +880,9 @@ h4 {
     font-size: 1.5em;
     }
 
-    footer .col-sm-12 h4 {
-    font-size: 1.5em;
+    footer .col-sm-12 h3 {
+        text-align: center;
+        font-size: 1.4em;
     }
 }
 
@@ -892,9 +930,7 @@ h4 {
         margin: 10px auto 0;
     }
 
-     #nav-toggle {
-        display: none;
-    }
+    
 }
 
 /* Nouvelles règles écrans larges*/

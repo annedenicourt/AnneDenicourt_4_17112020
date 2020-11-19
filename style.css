@@ -399,7 +399,6 @@ nav .navbar-header {
     flex-direction: column;
 }
 
-
 #main_container2 {
     display: flex;
     flex-direction: column;
@@ -407,6 +406,29 @@ nav .navbar-header {
 
 #testimonial {
     width: 100%;
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 40px;
+    margin-bottom: 5px;
+}
+
+#signature_citation {
+    font-size: 1em;
+}
+#web_design {
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+#strategie {
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+#illustrations {
+    font-size: 14px;
+    padding: 0 30px;
 }
 
 footer .col-sm-12 h3 {
@@ -818,9 +840,12 @@ h4 {
 }
 
 .portfolio-thumb {
-    width: 100%;
+    width: 350px;
+    height: 350px;
     margin-top: 24px;
     margin-bottom: 24px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .avatar {
@@ -919,7 +944,7 @@ h4 {
     }
 
     #nav-toggle {
-    display: none;
+        display: none;
     }
 
     .black-background {
@@ -927,11 +952,26 @@ h4 {
     }
 
     #main_icon {
-    display: flex;
+        display: flex;
+    }
+
+    #web_design {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    #strategie {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    #illustrations {
+        font-size: 14px;
+        padding: 0;
     }
 
     footer .col-sm-12 p {
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
 
     footer .col-sm-12 h3 {

@@ -403,15 +403,13 @@ nav .navbar-header
     padding: 0 30px;
 }
 
-footer .col-sm-12 h3
+footer .col-sm-12 h2
 {
     text-align: center;
-    font-size: 0.9em;
     font-weight: bold;
     margin-bottom: 30px;
     color: #575757;
 }
-
 #container_reso_socio
 {
     display: flex;
